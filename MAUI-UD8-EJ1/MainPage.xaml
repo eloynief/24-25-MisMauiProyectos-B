@@ -14,7 +14,7 @@
 
             <Label VerticalOptions="Center">
                 Nombre:
-            </Label>
+            </Label> 
 
 
             <Entry VerticalOptions="Center" Margin="10"/>
