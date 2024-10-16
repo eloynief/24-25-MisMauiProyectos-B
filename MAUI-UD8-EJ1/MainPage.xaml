@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_UD8_EJ1.MainPage">
+
+    <Border Stroke="Purple" StrokeThickness="10" Margin="10" StrokeLineCap="Round" >
+
+        <VerticalStackLayout Margin="10">
+            <Button BackgroundColor="Purple" Margin="10" Text="Boton 1"  Padding="10" BorderColor="Black" BorderWidth="5"/>
+            <Button BackgroundColor="Purple" Margin="10" Text="Boton 2"  Padding="10"/>
+            <Button BackgroundColor="Purple" Margin="10" Text="Boton 3"  Padding="10"/>
+
+
+
+            <Label VerticalOptions="Center">
+                Nombre:
+            </Label>
+
+
+            <Entry VerticalOptions="Center" Margin="10"/>
+
+
+
+
+        </VerticalStackLayout>
+        
+    </Border>
+
+</ContentPage>
