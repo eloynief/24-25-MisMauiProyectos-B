@@ -7,9 +7,38 @@
     Shell.FlyoutBehavior="Disabled"
     Title="MAUI_UD8_EJ1">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+
+        <Tab Title="Ejercicios" Icon="icono.png" >
+
+            <ShellContent
+            Title="EJ1"
+            ContentTemplate="{DataTemplate local:Views.MainPage}"
+            Route="MainPage" />
+
+
+            <ShellContent
+            Title="EJ2"
+            ContentTemplate="{DataTemplate local:Views.Ejercicio2}"
+            Route="MainPage" />
+
+
+
+
+            <ShellContent
+            Title="EJ3"
+            ContentTemplate="{DataTemplate local:Views.Ejercicio3}"
+            Route="MainPage" />
+
+
+        </Tab>
+        
+        
+        
+    </FlyoutItem>
+
+
+
 
 </Shell>

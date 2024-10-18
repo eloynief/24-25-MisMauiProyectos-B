@@ -1,4 +1,4 @@
-﻿namespace MAUI_UD8_EJ1
+﻿namespace MAUI_UD8_EJ1.Views
 {
     public partial class MainPage : ContentPage
     {
