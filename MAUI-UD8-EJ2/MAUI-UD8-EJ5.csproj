@@ -62,4 +62,9 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Entities\MAUI-UD8-EJ5-Entities.csproj" />
+	  <ProjectReference Include="..\MAUI-UD8-EJ5-DAL\MAUI-UD8-EJ5-DAL.csproj" />
+	</ItemGroup>
+
 </Project>

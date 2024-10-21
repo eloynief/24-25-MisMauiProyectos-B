@@ -31,6 +31,11 @@
             ContentTemplate="{DataTemplate local:Views.Ejercicio3}"
             Route="MainPage" />
 
+            <ShellContent
+            Title="EJ4"
+            ContentTemplate="{DataTemplate local:Views.Ejercicio4}"
+            Route="MainPage" />
+
 
         </Tab>
         
